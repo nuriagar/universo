@@ -1,0 +1,70 @@
+
+h1{
+    background-color: #d5daf1;
+    text-align: left;
+    font-size: 70px;
+    margin-right: 26cm;
+    margin-top: 2cm;
+}
+body{
+    background-image: url("https://wallpapermemory.com/uploads/286/cool-space-background-full-hd-1920x1080-398571.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+     background-size: cover;
+}
+h2{
+    color:#ffffff;
+    margin-left: 3cm;
+}
+p{
+    color:#ffffff;
+    margin-left: 3cm;
+}
+h4{
+    text-align: center;
+}
+a:link{
+    color: #ffffff
+  }
+  a:visited{
+    color:#e4ebc9
+  }
+  a:hover{
+    color: #c7b9ad
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #120635;
+    top: 0;
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 30.59%;
+    border-radius: 25px;
+  }
+  .navbar a:hover {
+    background: #729ed49c;
+    color: #130737;
+    ;
+  }
+  
+  .bar {
+    text-align: center;
+    margin-left: -2.75cm;
+    margin-right: -2.75cm;
+    padding: 20px;
+    background-color: #3a47d839;
+    color: white;
+    font-family: "Times new Roman", Times, serif;
+  }
