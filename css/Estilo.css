@@ -68,3 +68,7 @@ a:link{
     color: white;
     font-family: "Times new Roman", Times, serif;
   }
+#video {
+    width: 840px ;
+    height: 472.5px;
+}
