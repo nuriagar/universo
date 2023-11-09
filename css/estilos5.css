@@ -9,6 +9,7 @@ h1{
     background-color: #d5daf189;
     text-align: center;
     font-size: 70px;
+    margin: 2cm;
 }
 h1 {
     margin-top: 2cm;
@@ -73,6 +74,15 @@ footer {
   width: 12.8cm;
   height: 10cm;
 }
-audio{
-    text-align: centre
+
+#ftas {
+  float: right;
+}
+
+#ftan {
+  margin-left: 9%;
+}
+
+#ftneb  {
+  float: left;
 }
