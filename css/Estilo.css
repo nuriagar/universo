@@ -3,7 +3,7 @@ h1{
     background-color: #d5daf189;
     text-align: left;
     font-size: 70px;
-    margin-right: 26cm;
+    margin-right: calc(100% / 2);
     margin-top: 2cm;
 }
 body{
@@ -71,4 +71,5 @@ a:link{
 #video {
     width: 840px ;
     height: 472.5px;
+    margin-left: calc(100% / 5);
 }
