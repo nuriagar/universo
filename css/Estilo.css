@@ -72,4 +72,10 @@ a:link{
     width: 840px ;
     height: 472.5px;
     margin-left: calc(100% / 5);
+    border-ratius: 
+}
+footer {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffff74;
 }
