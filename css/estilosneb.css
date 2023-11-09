@@ -10,7 +10,7 @@ h1{
     background-color: #d5daf189;
     text-align: left;
     font-size: 70px;
-    margin-right: 26cm;
+    margin-right: -3cm;
     margin-left: -3cm;
     margin-top: -1cm;
 }
@@ -26,19 +26,23 @@ h4 {
     padding-top: 1cm;
     padding-bottom: 1cm;
 }
+
 hr {
 margin-left: -3cm;
 margin-right: -3cm;
 }
+
 section {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   margin-left: 16cm;
   margin-bottom: 2cm;
 }
+
 ul {
   list-style-type: circle
 }
+
 #menu2 {
   width: 390px;
   border-style: solid;
@@ -51,24 +55,30 @@ ul {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
 }
+
 #tit {
   text-align: left;
   margin-left:-16cm;
   font-size: 28px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 a:link {
 color:#ffffff
 }
+
 a:hover {
 color:rgb(89, 51, 243)
 }
+
 a:visited {
 color:#b01fe0
 }
+
 .degradado {
   background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(12, 12, 80, 0.459),rgba(73, 5, 73, 0.596));
 }
+
 .navbar {
   overflow: hidden;
   background-color: #120635;
@@ -93,7 +103,6 @@ color:#b01fe0
 .navbar a:hover {
   background: #729ed49c;
   color: #130737;
-  ;
 }
 
 .bar {
@@ -108,5 +117,4 @@ color:#b01fe0
 .p {
   color: white;
   font-size: 20px;
-  
-}
+  }
