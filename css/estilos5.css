@@ -86,3 +86,15 @@ footer {
 #ftneb  {
   float: left;
 }
+#acreditación{
+    color: #dadadb6b;
+    text-align: center;
+}
+audio{
+    padding: 35%;
+    margin-top: -32%;
+    margin-bottom: -33%;
+    width: 30%;
+    height: 40px;
+    border-radius: 25%;
+}
