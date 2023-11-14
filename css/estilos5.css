@@ -68,6 +68,9 @@ footer {
  text-align: center;
  color: #ffffff;
 }
+a {
+    cursor: crosshair;
+}
 .foto {
   width: calc(100%/4);
   height: calc(100%/2);
