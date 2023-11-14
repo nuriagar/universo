@@ -19,6 +19,9 @@ p{
     color:#ffffff;
     margin-left: 3cm;
 }
+a {
+    cursor: crosshair;
+}
 h4{
     text-align: center;
 }
