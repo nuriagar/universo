@@ -57,7 +57,7 @@ a:link{
     margin: 0px;
     text-decoration: none;
     font-size: 17px;
-    width: 30.59%;
+    width: calc(100%/3.5);
     border-radius: 25px;
   }
   .navbar a:hover {
