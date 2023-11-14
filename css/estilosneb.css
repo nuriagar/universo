@@ -38,6 +38,9 @@ section {
   margin-left: 16cm;
   margin-bottom: 2cm;
 }
+a {
+    cursor: crosshair;
+}
 
 ul {
   list-style-type: circle
