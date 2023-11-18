@@ -77,11 +77,34 @@ body {
     margin-top: 30px;
     height: 1500px;
   }
-  #figura {
-    width: 100px;
-    height: 109px;
-    stroke: #a5465c;
-    stroke-width: 3;
-    fill: #a5465c;
+  svg:hover { 
+    fill: #50c6db;
+    transform: scale(1.25); 
+    transition-duration: 1.5s;
   }
+  svg {
+    float: right;
+  }
+#figura {
+    stroke: #a5465c;
+    stroke-width: 3px;
+    fill: #a5465c;
+    fill-rule:nonzero;
+    animation: walk 4s infinite ease-out;
+}
+@keyframes walk {
+    0% {
+        transform: translateX(0);
+        rotate:(0deg);
+    }
+
+    75% {
+        transform: translateX(-530px);
+        rotate:(200deg);;
+    }
+
+    100% {
+        transform: translateX(520px);
+    }
+}
   
