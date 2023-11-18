@@ -105,3 +105,11 @@ audio{
     height: 40px;
     border-radius: 25%;
 }
+.hr {
+  border: 0 none #00000000;
+  border-top: 1px solid #00000000;
+  height: 1px;
+  margin: 5px 0;
+  display: block;
+  clear: both;
+  }
