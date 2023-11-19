@@ -44,7 +44,7 @@ body {
     width:500px; 
     height:300px
   }
-  .footer { 
+  .fila { 
     font-size: 20px;
     font-family: "Times new Roman", Times, serif;
   }
@@ -92,5 +92,10 @@ body {
 }
 #yo {
     width: 20%;
+}
+iframe {
+    width: 800px;
+    float: left;
+    height: 340px;
 }
   
