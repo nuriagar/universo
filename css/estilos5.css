@@ -97,6 +97,9 @@ a {
     color: #dadadb6b;
     text-align: center;
 }
+#indice {
+    text-align: left;
+}
 audio{
     padding: 35%;
     margin-top: -32%;
