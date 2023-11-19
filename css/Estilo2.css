@@ -26,3 +26,8 @@ table, th, td {
   #foto1 {
     width: 200px;
   }
+iframe {
+    width: 800px;
+    float: left;
+    height: 340px;
+}
