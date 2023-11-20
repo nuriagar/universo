@@ -124,5 +124,6 @@ iframe {
         transform: translateX(-250px);
     }
   }
-#forma{animation: star 5s infinite ease-out
+  #fig {
+    animation: star 5s infinite ease-in;
   }
