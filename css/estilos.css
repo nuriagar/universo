@@ -100,7 +100,10 @@ iframe {
   svg {
     float: right;
   }
-@keyframes star{
+ #fig{
+    animation: star 7s infinite ease-in
+  }
+  @keyframes star{
     0% {
         transform: translateX(0);
     }
@@ -108,7 +111,7 @@ iframe {
         transform: translateX(250px);
     }
     10% {
-        transform: translateX(500px);
+        transform: translateX(100px);
     }
     25% {
         transform: rotate(-25deg);
@@ -116,14 +119,14 @@ iframe {
     45% {
         transform: rotateX(-50deg);
     }
+    65% {
+      transform: rotateX(-50deg);
+    }
 
     75% {
         transform: translateX(-500px);
     }
     100% {
-        transform: translateX(-250px);
+        transform: translateX(-500px);
     }
-  }
-  #fig {
-    animation: star 5s infinite ease-in;
   }
