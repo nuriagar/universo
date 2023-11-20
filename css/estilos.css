@@ -1,136 +1,126 @@
-body{
- background-image:  url("https://static.vecteezy.com/system/resources/previews/008/555/319/non_2x/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/64c54bb8774661536ac896b1/836a2148-009e-4baf-9deb-0bab32f27ac1/floral-background+-+opacity+50%25.jpg");
+    background-attachment: scroll;
+    background-repeat: repeat;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 15px;
+  }
+  td {
+    background-color: #ffd8e0;
+  }
+  th {
+     background-color: #ffbdc1; 
+    }
+  a {
+    color: #a5465c;
+  }
+  table {
+    width: 650px;
+    height: 90px;
+  }
+  ul {
+    list-style-type: circle
+  }
+  img {
+    border: 5px solid #ffe4ff;
+  }
+  .header {
+    background-color: #ffbdc1; 
+    font-size:60px;
+    text-align: center;
+  }
+  
+ 
+iframe {
+    width: 800px;
+    float: left;
+    height: 420px;
+}
+  
+#hugo {
+    text-align: center;
+    padding: 0px;
 }
 #Importante{
-  font-size: 20px
-}
-h1{
-  text-align:center;
-  color:#618054;
-  background-color: #aacf8c;
-  border-style: double;
-  border-color: #749466;
-  font-family: impact;
-  font-size: 50px;
-}
-h2{
-  text-align:center;
-  color:#618054;
-  background-color: #aacf8c;
-  border-style: solid;
-  border-color: #749466;
-  font-family: impact;
-  font-size: 35px;
-}
-h3{
-  text-align:center;
- color:#618054;
-  background-color: #aacf8c;
-  border-style: solid;
-  border-color: #749466;
-  font-family: impact;
-  font-size: 35px;
-}
-p{
-  text-align:justify;
-  text-indent: 1cm
-}
-ul{
-  list-style-position: inside;
-  list-style-type: circle;
-}
-table,th,td,tr{
-  border:2px solid;
-  border-collapse: collapse
-}
-th{
-  text-decoration: underline;
-  text-align: center;
-  text-style: bold
-}
-tr{
-  background-color:#ffff90;
-  text-align: justify
-}
-td{
-  background-color:#ffffbe;
-  text-align: justify
-}
-footer{
-  background-color: #bbbbbb;
-  border-color: #999999;
-  border-style: dashed
-}
-#menos{
-  color: #aa9f8c;
-  text-align: right;
-}
-div{
-  text-align: center
-}
-#neg{
-  font-weight:bold
-}
-a:link{
-  color: #8c604b
-}
-a:visited{
-  color:#613a2f
-}
-a:hover{
-  color: #987758
+    font-size: 25px;
 }
 .idc-box {
-   border: 2px solid #6f4129
-;
-   display: table;
-   font-size: 95%;
-   margin-bottom: 50px;
-   padding: 10px;
-   width: auto;
-  text-align: left;
-}
-.idc-titulo {
-   text-align: center;
-   font-weight: bold;
-}
-.idc-box li, .idc-box ul, .idc-box ul li{
-   list-style:square;
-}
-body {margin:0;}
+    border: 2px solid #8b3b46
+ ;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: auto;
+   text-align: left;
+ }
+ .idc-titulo {
+    text-align: center;
+    font-weight: bold;
+ }
+ .idc-box li, .idc-box ul, .idc-box ul li{
+    list-style:square;
+ }
+ body {margin:0;}
+ .navbar {
+    overflow: hidden;
+    background-color: rgb(121, 53, 64);
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #daadbb;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+  }
+  #Fotito{
+    width: 20%;
+    height: 32%;
+  }
+  svg {
+    float: right;
+  }
+  @keyframes star{
+    0% {
+        transform: translateX(0);
+    }
+    0.01% {
+        transform: translateX(250px);
+    }
+    10% {
+        transform: translateX(1000px);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    45% {
+        transform: rotateX(-25deg);
+    }
 
-.navbar {
-  overflow: hidden;
-  background-color: #82a573;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #c8d7c1;
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
-}
-header{
-  background-color: #817360;
-  text-align: center;
-  width: 100%;
-}
+    75% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(-10000px);
+    }
+  }
