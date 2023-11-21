@@ -90,6 +90,27 @@ body {
         transform: translateX(520px);
     }
 }
+
+#casa {
+  stroke: #0c0506;
+  stroke-width: 3px;
+  fill: #a5465c00;
+  fill-rule:nonzero;
+  animation: si 4s infinite ease-out;
+}
+
+@keyframes si {
+  0% {
+    transform: translateX(0);
+}
+  0.01% {
+    transform: translateX(-27px);
+  }
+  100% {
+    transform: translateX(-27px);
+  }
+}
+
 #yo {
     width: 20%;
 }
