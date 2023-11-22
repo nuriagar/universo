@@ -49,11 +49,6 @@ body {
     font-family: "Times new Roman", Times, serif;
   }
 
-  svg:hover { 
-    fill: #50c6db;
-    transform: scale(1.25); 
-    transition-duration: 1.5s;
-  }
   svg {
     float: right;
   }
