@@ -66,28 +66,7 @@ iframe {
     list-style:square;
  }
  body {margin:0;}
- .navbar {
-    overflow: hidden;
-    background-color: rgb(121, 53, 64);
-    top: 0;
-    width: 100%;
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background: #daadbb;
-    color: black;
-  }
-  
+
   .main {
     padding: 16px;
     margin-top: 30px;
