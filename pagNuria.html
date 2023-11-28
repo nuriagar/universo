@@ -1,63 +1,207 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/estilonuria.css">
-<link rel="icon" href="img/flor.ico">
-  <title>Nuria Garcia</title>
-</head>
-<body>
-<header>
-    <h1 class="header" id="nuria">NURIA</h1>
-  <svg id="figura" height="210" width="500">
-    <polygon points="100,10 40,198 190,78 10,78 160,198">
-    </polygon>
-  </svg>
-  <svg id="casa" >
-    <polygon points="100,10 40,198 190,78 10,78 160,198" />
-  </svg>
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/64c54bb8774661536ac896b1/836a2148-009e-4baf-9deb-0bab32f27ac1/floral-background+-+opacity+50%25.jpg");
+  background-attachment: scroll;
+  background-repeat: repeat;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+}
+td {
+  background-color: #ffd8e0;
+}
+th {
+   background-color: #ffbdc1; 
+  }
+a {
+  color: #a5465c;
+}
+table {
+  width: 650px;
+  height: 90px;
+}
+ul {
+  list-style-type: circle
+}
+img {
+  border: 5px solid #ffe4ff;
+}
+.header {
+  background-color: #ffbdc1; 
+  font-size:60px;
+  text-align: center;
+}
+#lana { 
+  width:300px; 
+  height:300px
+}
+#nuria {
+  text-align: center;
+}
+#flor { 
+  width:500px; 
+  height:300px
+}
+.fila { 
+  font-size: 20px;
+  font-family: "Times new Roman", Times, serif;
+}
 
-  <svg id="figura2" height="210" width="500">
-    <polygon points="50,2 20,99 95,39 2,39 80,99">
-    </polygon>
-  </svg>
-  <svg id="casa2" >
-    <polygon points="50,2 20,99 95,39 2,39 80,99" />
-  </svg>
-  <img id="yo" src="img/yop.jpg" alt="foto sobre mí">
-</header>
-  <p class="fila">Esta es la <i>primera</i> <a>página web</a> acerca de mí</p>
-<h1 id="hobbies"></big></b>MIS HOBBIES</big></b></h1>
-<ul>
-  <li>Leer</li>
-  <li>Viajar</li>
-  <li>Diseño</li>
-  <li>Escuchar música</li>
-</ul>
-  <table > 
-  <tr>
-    <th colspan="3"><ins>ACERCA DEL INSTITUTO</ins></th>
-    </tr>
-    <tr>
-   <th>Asignaturas favoritas</th>
-   <td> Matemáticas</td>
-   <td>Tecnologías de la información y la comunicación</td>
-  </tr>
-  <tr>
-   <th>Menos favoritas</th>
-   <td>Historia de España</td>
-   <td>Filosofía</td>
-  </tr>
-   <p></p>
-   </table>
-  <h2>VISITA LA WEB DE MI ARTISTA FAVORITA:</h2> 
-<a href="https://www.lanadelrey.com/" target="_blank">Visit Lana del rey!</a>
-<hr><i>o pulsando en la imagen</i></hr>
-  <p id="artista"></p>
-<a href="https://www.lanadelrey.com" target="_blank"><img id="lana" src="https://akamai.sscdn.co/uploadfile/letras/albuns/8/8/0/f/1724891679602733.jpg" alt="Lana del rey"></a>
-<img id="flor" src="https://w0.peakpx.com/wallpaper/319/905/HD-wallpaper-soft-pink-tulips-painting-beautiful-soft-tulips-pink.jpg" target="_blank" alt="Tulipanes">
-   <hr>
-   <address id="tabla"><b> Si tienes alguna duda contáctame: </b><a href= "mailto:nuria.gararn@educa.jcyl.es">nuria.gararn</a>
-   <footer>
-    <iframe src="About us.html" scrolling="no" title="Nosotros"></iframe>
-      </footer>
-</body>
-</html>
+svg {
+  float: right;
+}
+#figura {
+  stroke: #a5465c;
+  stroke-width: 3px;
+  fill: #a5465c;
+  fill-rule:nonzero;
+  animation: walk 4s infinite ease-out;
+}
+#casa {
+stroke: #0c0506;
+stroke-width: 3px;
+fill: #a5465c00;
+fill-rule:nonzero;
+animation: si 4s infinite ease-out;
+height: 210px;
+width: 500px;
+}
+
+@keyframes si {
+0% {
+  transform: translateX(0);
+}
+0.01% {
+  transform: translateX(-27px);
+}
+100% {
+  transform: translateX(-27px);
+}
+}
+
+@keyframes walk {
+  0% {
+      transform: translateX(0);
+  }
+  0.01% {
+      transform: translateX(500px);
+  }
+  10% {
+      transform: translateX(-80px);
+  }
+  25% {
+      transform: rotate(-25deg);
+  }
+  45% {
+      transform: rotateX(50deg);
+  }
+
+  75% {
+      transform: translateX(-530px);
+  }
+  80% {
+    transform: translateX(-530px);
+}
+  100% {
+      transform: translateX(520px);
+  }
+}
+
+#figura2 {
+stroke: #a5465c;
+stroke-width: 3px;
+fill: #a5465c;
+fill-rule:nonzero;
+animation: walkk 4s infinite ease-out;
+}
+#casa2 {
+stroke: #0c0506;
+stroke-width: 3px;
+fill: #a5465c00;
+fill-rule:nonzero;
+animation: sii 4s infinite ease-out;
+height: 210px;
+width: 500px;
+}
+
+@keyframes sii {
+0% {
+transform: translateX(0);
+}
+0.01% {
+transform: translateX(50%);
+}
+100% {
+transform: translateX(50%);
+}
+}
+
+@keyframes walkk {
+0% {
+    transform: translateX(0);
+}
+0.01% {
+    transform: translateX(10%);
+}
+10% {
+    transform: translateX(-20%);
+}
+25% {
+    transform: rotate(-25deg);
+}
+45% {
+    transform: rotateX(50deg);
+}
+
+75% {
+    transform: translateX(40%);
+}
+80% {
+  transform: translateX(60%);
+}
+100% {
+    transform: translateX(100%);
+}
+}
+
+#yo {
+  width: 20%;
+  display: block;
+  overflow: auto;
+}
+iframe {
+  width: 800px;
+  float: left;
+  height: 460px;
+}
+@media screen and (max-width:800px) {
+.header {
+  background-color: #ffbdc1; 
+  font-size:20px;
+  text-align: center;
+}
+#figura {
+  display: none;
+}
+#casa {
+  display: none;
+}
+#yo {
+display: block;
+width: 50%;
+}
+iframe {
+width: 100%;
+}
+}
+
+@media screen and (min-width:800px) {
+#figura2 {
+  display: none;
+}
+#casa2 {
+  display: none;
+}
+}
