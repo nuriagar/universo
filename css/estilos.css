@@ -138,12 +138,12 @@ iframe {
   ;
 }
 }
-@media screen and (min-width:800px)
+@media screen and (max-width:800px)
 {svg{ 
   float: none;
  width: 100%;}
 }
-@media screen and (min-width:800px)
+@media screen and (max-width:800px)
 {#Fotito{ 
   float: none;
  width: 50%;
