@@ -59,6 +59,28 @@ body {
     fill-rule:nonzero;
     animation: walk 4s infinite ease-out;
 }
+#casa {
+  stroke: #0c0506;
+  stroke-width: 3px;
+  fill: #a5465c00;
+  fill-rule:nonzero;
+  animation: si 4s infinite ease-out;
+  height: 210px;
+  width: 500px;
+}
+
+@keyframes si {
+  0% {
+    transform: translateX(0);
+}
+  0.01% {
+    transform: translateX(-27px);
+  }
+  100% {
+    transform: translateX(-27px);
+  }
+}
+
 @keyframes walk {
     0% {
         transform: translateX(0);
@@ -79,30 +101,68 @@ body {
     75% {
         transform: translateX(-530px);
     }
-
-
+    80% {
+      transform: translateX(-530px);
+  }
     100% {
         transform: translateX(520px);
     }
 }
 
-#casa {
-  stroke: #0c0506;
+#figura2 {
+  stroke: #a5465c;
   stroke-width: 3px;
-  fill: #a5465c00;
+  fill: #a5465c;
   fill-rule:nonzero;
-  animation: si 4s infinite ease-out;
+  animation: walkk 4s infinite ease-out;
+}
+#casa2 {
+stroke: #0c0506;
+stroke-width: 3px;
+fill: #a5465c00;
+fill-rule:nonzero;
+animation: sii 4s infinite ease-out;
+height: 210px;
+width: 500px;
 }
 
-@keyframes si {
-  0% {
-    transform: translateX(0);
+@keyframes sii {
+0% {
+  transform: translateX(0);
 }
-  0.01% {
-    transform: translateX(-27px);
+0.01% {
+  transform: translateX(-14px);
+}
+100% {
+  transform: translateX(-14px);
+}
+}
+
+@keyframes walkk {
+  0% {
+      transform: translateX(0);
   }
+  0.01% {
+      transform: translateX(500px);
+  }
+  10% {
+      transform: translateX(-80px);
+  }
+  25% {
+      transform: rotate(-25deg);
+  }
+  45% {
+      transform: rotateX(50deg);
+  }
+
+  75% {
+      transform: translateX(-265px);
+  }
+  80% {
+    transform: translateX(-265px);
+}
   100% {
-    transform: translateX(-27px);
+      transform: translateX(260px);
   }
 }
 
@@ -114,4 +174,34 @@ iframe {
     float: left;
     height: 460px;
 }
+ @media screen and (max-width:800px) {
+  .header {
+    background-color: #ffbdc1; 
+    font-size:20px;
+    text-align: center;
+  }
+  #figura {
+    display: none;
+  }
+  #casa {
+    display: none;
+  }
+#yo {
+  display: block;
+  width: 50%;
+}
+iframe {
+  height: 300px;
+  width: 400px;
+}
+ }
+
+ @media screen and (min-width:800px) {
+  #figura2 {
+    display: none;
+  }
+  #casa2 {
+    display: none;
+  }
+ }
   
