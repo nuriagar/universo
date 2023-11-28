@@ -135,18 +135,21 @@ iframe {
 #Fotito{
   width:100%;
   height:100%;
-  ;
 }
 }
-@media screen and (max-width:800px)
-{svg{ 
-  float: none;
- width: 100%;}
+@media screen and (min-width:800px)
+{#bola{ 
+ display: none;}
 }
-@media screen and (max-width:800px)
+@media screen and (min-width:800px)
 {#Fotito{ 
   float: none;
  width: 50%;
  height: 80%;
  }
+}
+@media screen and (min-width:800px)
+{#fig{ 
+  float: none;
+ width: 100%;}
 }
