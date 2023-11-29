@@ -132,8 +132,7 @@ iframe {
     text-align: center;
 }
 #Fotito{
-  width:100%;
-  height:100%;
+  width:50%;
 }
 }
 @media screen and (min-width:800px)
